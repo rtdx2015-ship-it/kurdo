@@ -464,11 +464,11 @@ export default function App() {
   };
 
   return (
-    <div id="main_app_root" className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-purple-600 selection:text-white relative overflow-x-hidden pb-16">
+    <div id="main_app_root" className="min-h-screen bg-red-950/95 text-slate-100 font-sans selection:bg-red-600 selection:text-white relative overflow-x-hidden pb-16 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-red-900/40 via-slate-950 to-red-950">
       
       {/* Absolute Ambient Background Lights */}
-      <div className="absolute top-0 left-1/4 w-[40rem] h-[40rem] bg-purple-900/10 rounded-full blur-[120px] pointer-events-none -z-10" />
-      <div className="absolute bottom-20 right-1/4 w-[35rem] h-[35rem] bg-indigo-900/15 rounded-full blur-[140px] pointer-events-none -z-10" />
+      <div className="absolute top-0 left-1/4 w-[40rem] h-[40rem] bg-red-600/15 rounded-full blur-[120px] pointer-events-none -z-10" />
+      <div className="absolute bottom-20 right-1/4 w-[35rem] h-[35rem] bg-rose-600/15 rounded-full blur-[140px] pointer-events-none -z-10" />
 
       {/* Decorative Lavender Leaf Rainfall on background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden -z-10">
@@ -512,15 +512,15 @@ export default function App() {
           }
         }
         .text-glow {
-          text-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+          text-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
         }
       `}</style>
 
       {/* Top Banner Offer */}
-      <div id="top_offer_ticker" className="bg-gradient-to-r from-purple-950 via-indigo-950 to-purple-950 text-white text-xs md:text-sm py-2.5 px-4 text-center border-b border-purple-500/20 flex items-center justify-center gap-2 font-medium z-50 relative">
-        <Sparkles className="w-4 h-4 text-purple-400 animate-spin" />
+      <div id="top_offer_ticker" className="bg-gradient-to-r from-red-950 via-rose-950 to-red-950 text-white text-xs md:text-sm py-2.5 px-4 text-center border-b border-red-500/20 flex items-center justify-center gap-2 font-medium z-50 relative">
+        <Sparkles className="w-4 h-4 text-red-400 animate-spin" />
         <span>عـرض تـوفـير خـاص: <strong>10 قطع</strong> من مانع التعرق الفاخر بـ <strong>1750 دينار</strong> فقط!</span>
-        <span className="hidden md:inline-block bg-purple-500 text-white text-[10px] uppercase px-2 py-0.5 rounded-full font-bold animate-pulse">لفترة محدودة</span>
+        <span className="hidden md:inline-block bg-red-500 text-white text-[10px] uppercase px-2 py-0.5 rounded-full font-bold animate-pulse">لفترة محدودة</span>
       </div>
 
       {/* Elegant Header */}
