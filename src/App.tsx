@@ -29,9 +29,9 @@ import {
   Sparkle
 } from 'lucide-react';
 
-// Reference local photorealistic assets as strings
-const productImg = "/src/assets/images/lavender_product_1783540659436.jpg";
-const girlImg = "/src/assets/images/girl_using_product_1783540673255.jpg";
+// Import local photorealistic assets natively
+import productImg from './assets/images/lavender_product_1783540659436.jpg';
+import girlImg from './assets/images/girl_using_product_1783540673255.jpg';
 
 // Define pre-loaded high-converting campaigns to use as default/fallbacks
 const DEFAULT_CAMPAIGNS = {
