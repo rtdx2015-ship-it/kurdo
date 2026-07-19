@@ -1,0 +1,6 @@
+{
+  "name": "متجر لافند - إعلانات مانع التعرق",
+  "description": "تطبيق متكامل لعرض منتجات متجر لافند، وصناعة الإعلانات التفاعلية، ومحاكاة فيديوهات الاستعمال لمانع التعرق الطبيعي الفعال للنساء والرجال.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
